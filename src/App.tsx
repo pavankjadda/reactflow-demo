@@ -5,10 +5,30 @@ import "@xyflow/react/dist/style.css";
 
 function App() {
   const initialNodes = [
-    { id: "1", position: { x: 0, y: 0 }, data: { label: "Concept" } },
-    { id: "2", position: { x: 0, y: 100 }, data: { label: "Branch Draft" } },
-    { id: "3", position: { x: 0, y: 200 }, data: { label: "SRC" } },
-    { id: "4", position: { x: 0, y: 300 }, data: { label: "PSO/IRB" } },
+    {
+      id: "1",
+      position: { x: 0, y: 0 },
+      animated: true,
+      data: { label: "Concept" },
+    },
+    {
+      id: "2",
+      position: { x: 0, y: 100 },
+      animated: true,
+      data: { label: "Branch Draft" },
+    },
+    {
+      id: "3",
+      position: { x: 0, y: 200 },
+      animated: true,
+      data: { label: "SRC" },
+    },
+    {
+      id: "4",
+      position: { x: 0, y: 300 },
+      animated: true,
+      data: { label: "PSO/IRB" },
+    },
   ];
   const initialEdges = [
     { id: "e1-2", source: "1", target: "2" },
