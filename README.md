@@ -1,4 +1,4 @@
-# Reactflow demo
+# React flow demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple demo of the [React Flow](https://reactflow.dev/) library.
 
